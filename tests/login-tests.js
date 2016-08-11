@@ -2,7 +2,7 @@ var LFT = require("leanft");
 var Web = LFT.Web;
 var whenDone = LFT.whenDone;
 var expect = require("leanft/expect");
-var URL="http://cf-usc1b-docker-node-3.cf-cd.com:32769/";
+var URL="http://aut:5000/";
 
 describe("login tests",function(){
 	this.timeout(2*60*1000);
