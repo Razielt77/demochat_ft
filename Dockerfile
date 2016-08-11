@@ -1,4 +1,4 @@
-FROM leanft:12.54
+FROM razielt/leanft:12.54
 
 COPY . /scripts
 
